@@ -5,16 +5,14 @@ require "omniauth-weibo/version"
 Gem::Specification.new do |s|
   s.name        = "omniauth-weibo"
   s.version     = Omniauth::Weibo::VERSION
-  s.authors     = ["Scott Ballantyne"]
-  s.email       = ["ussballantyne@gmail.com"]
   s.homepage    = ""
   s.summary     = %q{an omniauth strategy for sina weibo}
   s.description = %q{an omniauth strategy for sina weibo}
 
   s.rubyforge_project = "omniauth-weibo"
 
-  s.add_dependency 'omniauth', '~> 1.1.0'
-  s.add_dependency 'omniauth-oauth', '~> 1.0.1'
+  s.add_dependency 'omniauth', '~> 1.0'
+  s.add_dependency 'omniauth-oauth', '~> 1.0'
   s.add_dependency 'multi_json'
 
   s.files         = `git ls-files`.split("\n")
