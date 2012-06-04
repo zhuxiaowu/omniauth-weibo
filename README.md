@@ -1,0 +1,4 @@
+omniauth-weibo
+==============
+
+omniauth-weibo
